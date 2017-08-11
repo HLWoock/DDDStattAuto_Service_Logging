@@ -1,4 +1,4 @@
-package de.woock.ddd.stattauto.loggingserver;
+package de.oose.ddd.stattauto.loggingserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: logging-server
+  sleuth:
+    sampler:
+      percentage: 1.0
+server:
+  port: 9411
+management:
+  port: 9000
+  security:
+    enabled: false
+endpoints:
+  enabled: false
+  info:
+    enabled: true

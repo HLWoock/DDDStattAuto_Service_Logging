@@ -1,0 +1,15 @@
+/**
+ * spring cloud dependencies
+ */
+
+dependencies {
+    compile('org.springframework.cloud:spring-cloud-sleuth-zipkin-stream')
+    compile('org.springframework.cloud:spring-cloud-stream-binder-rabbit:1.2.0.RELEASE')
+    runtime('io.zipkin.java:zipkin-autoconfigure-ui')
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:Dalston.RELEASE"
+    }
+}
